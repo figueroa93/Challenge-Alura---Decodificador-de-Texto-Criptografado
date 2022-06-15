@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt - br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resect.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Macondo&display=swap" rel="stylesheet">
+    <title>Decodificador de Texto - Alura </title>
+</head>
+<body>
+    <header>
+        <img src="images/Vector.png" alt="Logo Alura com a inicial letra a" class="logo">
+        <h1>Criptografe a sua mensagem</h1>
+    </header>
+    
+    <main class="main">
+        <section>
+            <textarea class="input-texto" cols="40" rows="6" placeholder="digite seu texto:" ></textarea>
+        
+            <div>
+                <h6 class="informaçao">Apenas letras maiúsculas e minúsculas.</h6>
+            </div>
+    
+            <div class="botoes">
+                <button class="encriptar" onclick="btnEncriptar()">
+                    Criptografar
+                </button>
+                <button class="desencriptar" onclick="btnDesencriptar()">
+                    Descriptografar
+                </button>
+            
+            </div>
+        
+        </section>
+       
+        <section>
+        
+            <textarea  id="msg" class="mensagem" cols="18" rows="8"></textarea>
+        
+
+            <div class="botoes">
+                <button  class="copiar" onclick="copiarMensagem()" >
+                    Copiar
+                </button>
+            </div>
+            
+        </section>
+
+    </main>
+
+      <script src="script.js">
+
+      </script>
+        
+</body>
+
+<footer>
+    <!--<nav>
+        <ul class="redes">
+            <li>
+                <a href="https://github.com/figueroa93"></a>
+                <img src="images/git.png" alt="Logo Github" id="git">
+            </li>
+            <li>
+                <a href="https://www.linkedin.com/in/nat%C3%A1lia-rodrigues-8253a723a/"></a>
+                <img src="images/linkedin.png" alt="Logo do Linkedin">
+            </li>
+            <li>
+                <a href="https://www.instagram.com/natalia.rfig/"></a>
+                <img src="images/instagram.png" alt="Logo do Instagram">
+            </li>
+        </ul>
+        
+    </nav>-->
+    <p class="rodapé"> 	
+        &#169; 2022 Desenvolvido por Natália Figuerôa em parceria com Alura</h6>
+
+ </footer>
+</html> 
